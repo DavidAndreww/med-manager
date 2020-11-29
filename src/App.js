@@ -7,16 +7,20 @@ export default function App () {
   const [docs, setDocs] = useState([])
 
   function addMedication () {
-    const medication = {
-      id: 1242,
-      name: 'Gabapenting',
-      dosage: '50mg',
-      frequency: '3x daily',
-      purpose: 'Nerve Pain',
-      interactions: 'N/A',
-      doctor: 'Dr. Fuentes'
-    }
-    setMeds([...meds, medication])
+    const drugName = 'Tylenol'
+    // const medication = {
+    //   id: 1242,
+    //   name: 'Gabapenting',
+    //   dosage: '50mg',
+    //   frequency: '3x daily',
+    //   purpose: 'Nerve Pain',
+    //   interactions: 'N/A',
+    //   doctor: 'Dr. Fuentes'
+    // }
+    // setMeds([...meds, medication])
+    fetch(`https://rxnav.nlm.nih.gov/REST/rxcui.json?name=${drugName}`)
+      .then(res => res.json())
+      .then(json => console.log(json))
   }
 
   return (
