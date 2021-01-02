@@ -1,6 +1,10 @@
+// * Root level App Component
+
+// import DetailsDisplayComponent
+// import InteractionsDisplayComponent
 // import medicationDisplayComponent
-// import input component
-// import display component
+
+// TODO holds state for selected medication to be displayed in details component (redux?)
 
 
 export function App () {

@@ -13,6 +13,4 @@ function Medication (props) {
 }
 */
 
-// ? prototype updateMedication => updates medication info
-
-// ? prototype getDetails => returns all key/values to show in detailsDisplay
+// ? Medication.prototype.updateMedication => updates medication info
