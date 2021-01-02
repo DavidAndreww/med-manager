@@ -3,14 +3,15 @@
 // TODO houses state to govern buttons/inputsDisplay/medDetails
 /*
 state {
-  isDisplayed: (medInputs/docInputs/Details)
+  currentDisplay: (medInputs/docInputs/details)
 }
 */
 
 // ? Functions 
 /*
-toggleView = () => updates state.isDisplayed to change, rendering appropriate 
-                   display view within DetailsWrapperView
+toggleInputFields = (fieldType) => fieldType === 'doc' || 'med'. updates state.isDisplayed
+                             to change, rendering appropriate display 
+                             view within DetailsWrapperView.
 */
 
 export default function DetailsWrapperController () {
