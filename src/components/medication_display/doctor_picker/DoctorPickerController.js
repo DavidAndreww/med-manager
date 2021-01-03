@@ -1,6 +1,6 @@
 // * DatePickerController Component
 
-// TODO renders DatePickerView componenet in return
+
 
 // TODO user selects sortBy doctor?
 /*

@@ -2,3 +2,7 @@
 
 // TODO renders DoctorPickerController and MedicationListController components
 
+export default function MedicationDisplayView () {
+  
+}
+

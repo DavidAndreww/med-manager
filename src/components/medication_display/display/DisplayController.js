@@ -1,11 +1,20 @@
 // * DisplayController component
 
-// TODO contains state for sortedBy, doctor
-// TODO props from User Model: medicationList and doctorList
+// TODO contains local state for selected doctor
+// gets doctor list from global state
+
+// ? handleDoctorChange => updates state for selected doctor 
+// ? 1: sets state to first doctor in array
+// ? 2: increment or decrement index to move up/down array
+// ? 3: sets state after index changes
 
 
-// ? handleDoctorChange => changes meds displayed in MedicationListView when 
-// ?                       user clicks to changes doctors
+
+// TODO receives props for list of doctors
+
+// TODO receives props for meds associated with each doctor
+
+
 
 
 
