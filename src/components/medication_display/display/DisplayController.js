@@ -1,4 +1,5 @@
 // * DisplayController component
+import MedicationDisplayView from './DisplayView'
 
 // TODO contains local state for selected doctor
 // gets doctor list from global state
@@ -13,6 +14,10 @@
 // TODO receives props for list of doctors
 
 // TODO receives props for meds associated with each doctor
+
+export default function MedicationsController () {
+  return <MedicationDisplayView />
+}
 
 
 

@@ -1,4 +1,5 @@
 // * DatePickerController Component
+import DoctorPickerView from './DoctorPickerView'
 
 
 
@@ -8,3 +9,7 @@
 2. user clicks left/right to increment/decrement array indexes
 3. 
 */ 
+
+export default function DoctorPickerController () {
+  return <DoctorPickerView />
+}

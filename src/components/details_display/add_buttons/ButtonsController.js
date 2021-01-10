@@ -1,9 +1,9 @@
 // * ButtonsController Component
 
-import View from './ButtonsView'
+import Buttons from './ButtonsView'
 
 // TODO functionality to toggle state.currentDisplay
 
 export default function AddButtonsController () {
-  return <View />
+  return <Buttons />
 }

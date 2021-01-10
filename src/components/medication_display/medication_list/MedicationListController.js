@@ -1,4 +1,5 @@
 // * MedicationListController Component
+import MedicationListView from './MedicationListView'
 
 // TODO functionality to remove medication from list
 // ? deleteMedFunc => identify the clicked medication by its rxcui
@@ -15,3 +16,8 @@
 // TODO functionality to display medication details when med is selected
 // ? displayMedDetails -redux- => renders medication details in details
 // ?                              display component
+
+
+export default function MedicationListController () {
+  return <MedicationListView />
+}

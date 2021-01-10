@@ -1,4 +1,5 @@
 // * DetailsWrapperController
+import DetailsWrapperView from './DetailsWrapperView'
 
 // TODO houses state to govern buttons/inputsDisplay/medDetails
 /*
@@ -15,5 +16,5 @@ toggleInputFields = (fieldType) => fieldType === 'doc' || 'med'. updates state.i
 */
 
 export default function DetailsWrapperController () {
-  
+  return <DetailsWrapperView />
 }

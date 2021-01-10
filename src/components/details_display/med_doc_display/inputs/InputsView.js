@@ -9,7 +9,8 @@
 export default function InputsView () {
   return (
     <form>
-      
+      <label>Inputs!</label>
+      <input type="text" />
     </form>
   )
 }

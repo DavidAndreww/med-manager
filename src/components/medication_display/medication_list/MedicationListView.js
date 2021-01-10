@@ -7,3 +7,10 @@
 // displays day of week with large char for day of week
 // if medication quantity exceed viewport, add scroll feature
 
+export default function MedicationListView () {
+  return (
+    <div>
+      Medication List!
+    </div>
+  )
+}

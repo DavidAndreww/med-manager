@@ -9,5 +9,9 @@
 // ! how will we know what doctor is currently selected when update is clicked?
 
 export default function DoctorPickerView () {
-
+  return (
+    <div>
+      ◀ Dr. Phillips ▶
+    </div>
+  )
 }
